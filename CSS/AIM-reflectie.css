@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    border-left: 100px solid #34343b;
+    border-right: 100px solid #34343b;
+    min-height: 100vh;
+    background-color: #e5f4f3;
+    padding: 20px;
+}
+
+header {
+    background-color: #34343b;
+    color: #e5f4f3;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.aim-tabel {
+    border-collapse: collapse;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.aim-tabel td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.aim-tabel tr td:first-child {
+    text-align: center;
+}
+
+.kernkwadranten {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 700px;
+    flex-wrap: wrap;
+    height: 160px;
+}
+
+.kernkwadranten-table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    max-width: 1400px;;
+}
+
+.kernkwadranten-tabel td {
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+    border: 1px solid black;
+    height: 72px;
+    background-color: white;
+}
+
+li {
+    margin: 15px;
+    max-width: 800px;
+}
+
+.x-factor{
+;
+    background-color: white;
+}
+.x-factor td {
+    min-width: 200px;
+    padding: 10px;
+}
+
+.x-factorfoto {
+    width: 400px;
+}
